@@ -1,0 +1,165 @@
+#main {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    align-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+
+hr {
+    color: black; 
+    width: 80%; 
+    border: 2px solid black;
+}
+
+h3 {
+ font-size: 50px;
+ margin-top: 5px;
+}
+
+/* - USER STORY 9 */
+#image-container {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+#cap-container {
+    display: flex;
+    justify-content: center;
+}
+
+#image {
+    border-radius: 50%;
+    width: 100%;
+}
+
+#img-caption {
+    width: 500px; 
+    text-align: justify; 
+}
+
+#rabbit{
+    display: flex;
+    justify-content: center; 
+}
+
+h2 {
+    font-size: 30px;;
+}
+
+#p-container {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+p {
+    width: 80%;
+    font-size: 25px;
+}
+
+#a-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#wonder {
+    font-size: 20px;
+    color: lightslategray;
+}
+
+#tribute-link {
+    font-size: 20px;
+    color: skyblue;
+}
+
+
+/* - USER STORY 8 */
+
+/* - RESPONSIVE DESIGN: iPad Pro  */
+@media screen and (max-width: 1024px) {
+    
+    #title {
+        font-size: 80px;
+    }
+    
+    #wonder {
+        font-size: 24px;
+    }
+    
+    #tribute-link {
+        font-size: 24px;
+    }
+}
+
+/* - RESPONSIVE DESIGN: iPhone 6/7/8 */
+@media screen and (max-width: 414px) { 
+   
+    #title {
+        font-size: 34px;
+    }
+    
+    h3 {
+     font-size: 27px;
+    }
+
+    #image {
+        border-radius: 50%;
+        width: 70%;
+    }
+    
+    #img-caption {
+        width: 75%; 
+        font-size: 14px;
+    }
+    
+    h2 {
+        font-size: 22px;;
+    }
+    
+    p {
+        width: 90%;
+        font-size: 20px;
+    }
+    
+    #wonder {
+        font-size: 11px;
+    }
+    
+    #tribute-link {
+        font-size: 11px;
+    }
+}
+
+
+
+/* - RESPONSIVE DESIGN: iPad */
+@media screen and (max-width: 768px) { 
+    #title {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 40px;
+       }
+
+       #image {
+        border-radius: 50%;
+        width: 60%;
+    }
+
+    #wonder {
+        font-size: 18px;
+    }
+    
+    #tribute-link {
+        font-size: 18px;
+    }
+}
