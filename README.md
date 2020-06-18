@@ -1,6 +1,3 @@
 # tribute-page
-Responsive Design
+An App to practice Responsive Design
 
-See the app live:
-
-https://monica-hall.github.io/tribute-page/
